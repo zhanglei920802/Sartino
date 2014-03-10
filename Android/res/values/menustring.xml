@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="global">
+        <item>品牌</item>
+        <item>理念</item>
+        <item>设计</item>
+        <item>花艺</item>
+        <item>花礼</item>
+        <item>下载</item>
+        <item>加盟</item>
+        <item>展示</item>
+    </string-array>
+    <string-array name="brand">
+        <item>概况</item>
+        <item>文化</item>
+    </string-array>
+
+</resources>

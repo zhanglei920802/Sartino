@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="container"
+        android:showAsAction="never" >
+        <item
+            android:id="@+id/main_menu_settings"
+            android:title="@string/main_menu_setting"/>
+        <item
+            android:id="@+id/main_menu_exit"
+            android:title="@string/main_menu_exit"/>
+    </group>
+
+</menu>

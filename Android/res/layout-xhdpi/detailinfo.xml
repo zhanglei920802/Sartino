@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/thumbimg"
+            style="@style/thumbimg"
+            android:clickable="true"
+            android:src="@drawable/test" />
+
+        <LinearLayout
+            style="@style/layout_detail"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/enTitle"
+                style="@style/entitle_tv"
+                android:gravity="center"
+                android:text="This is English Tilte" />
+
+            <TextView
+                android:id="@+id/overview"
+                style="@style/overview"
+                android:text="@string/overview" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/content"
+        android:text="@string/content" 
+        
+        />
+
+</LinearLayout>

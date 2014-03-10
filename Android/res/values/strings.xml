@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Huayi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_login">登录</string>
+    <string name="main_menu_exit">退出</string>
+    <string name="setting_head_title">系统设置</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+    <string name="brand">品牌</string>
+    <string name="concept">理念</string>
+    <string name="about">关于</string>
+    <string name="version">版本:1.1</string>
+    <string name="chkupdate">检查更新</string>
+    <string name="lastupdate">当前已是最新版本,无需更新</string>
+    <string name="chkupdateing">正在检查更新...</string>
+    <string name="autoUpdate">当前已经开启自动更新</string>
+    <string name="notAutoUpdate">当前已经关闭自自动更新</string>
+    <string name="inputfeedback">点击输入反馈信息</string>
+    <string name="commit">提交反馈</string>
+    <string name="design">设计</string>
+    <string name="huayi">花艺</string>
+    <string name="huali">花礼</string>
+    <string name="download">下载</string>
+    <string name="join">加盟</string>
+    <string name="display">展示</string>
+    <string name="brand_overview">概况</string>
+    <string name="brand_culture">文化</string>
+    <string name="concept_concept">理念</string>
+    <string name="design_showcase">橱窗</string>
+    <string name="design_meeting">会议</string>
+    <string name="design_wedding">婚庆</string>
+    <string name="design_display">美陈</string>
+    <string name="design_landscape">景观</string>
+    <string name="design_designer">设计师</string>
+    <string name="design_inner">室内</string>
+    <string name="display_show">展示</string>
+    <string name="download_download">下载</string>
+    <string name="huali_western">西式风格</string>
+    <string name="huali_east">东方流派</string>
+    <string name="huayi_western">西式风格</string>
+    <string name="huayi_east">东方流派</string>
+    <string name="join_advantage">优势</string>
+    <string name="join_process">流程</string>
+    <string name="join_return">回报</string>
+    <string name="join_market">营销</string>
+    <string name="join_policy">政策</string>
+    <string name="loading">加载中</string>
+    <string name="loadmore">加载更多</string>
+    <string name="loadfinish">加载完毕</string>
+    <string name="default_msg">正在加载…</string>
+    <string name="network_conn_fail">网络连接失败，请检查网络连接重新再试</string>
+
+    <!-- 登录 -->
+    <!-- xhdpi -->
+    <string name="login_user">账   号</string>
+    <string name="login_pwd">密   码</string>
+    <string name="login_in">登  录</string>
+    <string name="login_register">注  册</string>
+    <string name="cannotbenull">用户名或者密码不能为空</string>
+    <string name="login_fail">登录失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail_no_network">登录失败,请检查网络连接</string>
+    <string name="login_fail_userorpwd_error">登录失败,用户名或者密码错误</string>
+    <string name="login_fail_server">登录失败,连接服务器出错</string>
+    <!-- hdpi -->
+    <string name="login_user_hdpi">账 号</string>
+    <string name="login_pwd_hdpi">密 码</string>
+    <string name="login_in_hdpi">登 录</string>
+    <string name="login_register_hdpi">注 册</string>
+    <string name="login_user_hint">请输入账号</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <!-- 注册 -->
+    <!-- xhdpi -->
+    <string name="reg_user">账     号</string>
+    <string name="reg_pwd">密     码</string>
+    <string name="reg_commit">提   交</string>
+    <string name="reg_success">注册成功</string>
+    <string name="reg_fail">注册失败</string>
+    <!-- hdpi -->
+    <string name="reg_user_hdpi">账 号</string>
+    <string name="reg_pwd_hdpi">密 码</string>
+    <string name="reg_commit_hdpi">提   交</string>
+    <string name="reg_repeat_pwd_hdpi">确 认</string>
+    <string name="reg_repeat_pwd">确     认</string>
+    <string name="reg_user_hint">请输入账号</string>
+    <string name="reg_pwd_hint">请输入密码</string>
+    <string name="reg_repeat_pwd_hint">请再次输入密码</string>
+
+    <!-- 设置 -->
+    <string name="preference_account_manager">账号管理</string>
+    <string name="preference_login_in">登录</string>
+    <string name="preference_login_out">注销</string>
+    <string name="preference_myprofile">我的资料</string>
+    <string name="preference_myprofile_summary">查看我的资料信息</string>
+    <string name="preference_login_summary">登录或者退出</string>
+    <!-- 我的资料 -->
+    <string name="myprofile_user">账号</string>
+    <string name="myprolie_level_label">级别</string>
+    <string name="myprolie_level_youke">游客</string>
+    <string name="myprofile_lastlogin_label">上次登录</string>
+    <string name="myprolie_lastlogin_default">2013-04-29 20:20:41</string>
+    <string name="myprofile_add_label">住   址</string>
+    <string name="myprole_add_dedefault">四川省广元市</string>
+    <string name="myprole_summary_lable">简介</string>
+    <string name="myprofile_summary_default">我很懒，所以什么都没有留下。</string>
+    <!-- 注册 -->
+    <string name="register_not_match">对不起，两次输入的密码不相同</string>
+    <string name="register_not_null">对不起,输入错误</string>
+    <string name="register_no_network">对不起，暂无网络连接</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="@string/preference_account_manager" >
+        <Preference
+            android:key="loginOrloginout"
+            android:layout="@layout/preference"
+            android:summary="@string/preference_login_summary"
+            android:title="@string/preference_login_in" />
+        <Preference
+            android:key="myprofile"
+            android:layout="@layout/preference"
+            android:summary="@string/preference_myprofile_summary"
+            android:title="@string/preference_myprofile" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="功能设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="voice"
+            android:layout="@layout/preference"
+            android:summary="当前已开启声音"
+            android:title="声音" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="autoupdate"
+            android:layout="@layout/preference"
+            android:summary="当前已经开启自动更新"
+            android:title="自动更新" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="缓存设置" >
+        <Preference
+            android:defaultValue="0kb"
+            android:key="clearcache"
+            android:layout="@layout/preference"
+            android:title="清除缓存" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="其他设置" >
+        <Preference
+            android:key="feedback"
+            android:layout="@layout/preference"
+            android:summary="用户意见反馈"
+            android:title="反馈意见" />
+        <Preference
+            android:key="checkupdate"
+            android:layout="@layout/preference"
+            android:summary="检测是否有更新的版本"
+            android:title="检测更新" />
+        <Preference
+            android:key="about"
+            android:layout="@layout/preference"
+            android:summary="关于我们的团队"
+            android:title="关于我们" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

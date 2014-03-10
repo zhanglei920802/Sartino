@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/layout_brand"
+            layout="@layout/brand"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/layout_concept"
+            layout="@layout/concept"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/layout_display"
+        layout="@layout/display"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/layout_design"
+        layout="@layout/design"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/layout_huali"
+        layout="@layout/huali"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/layout_huayi"
+        layout="@layout/huayi"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/layout_join"
+        layout="@layout/join"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/layout_download"
+        layout="@layout/download"
+        android:visibility="invisible" />
+
+</LinearLayout>
